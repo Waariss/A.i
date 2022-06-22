@@ -10,7 +10,7 @@ const CTA = () =>  {
       <p>Request Early Access to Get Started</p>
     </div>
     <div className="ai_cta-btn">
-      <button onClick={() => navigate("/A.i/Contact")} type="button">Contact us</button>
+      <button onClick={() => navigate("/A.i/History")} type="button">Contact us</button>
     </div>
   </div>
   )
