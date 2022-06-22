@@ -1,0 +1,93 @@
+.ai_possibility{
+    display: flex;
+    flex-direction: row;
+}
+.ai_possibility-image{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;;
+    margin-right: 2rem;
+}
+.ai_possibility-image img{
+    width: 78%;
+    height: 90%;
+    position: relative;
+}
+.ai_possibility-content{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+.ai_possibility-content h4{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #71E5FF;
+}
+.ai_possibility-content h4:last-child{
+    color: #ff8A71;
+}
+.ai_possibility-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin: 0.5rem 0;
+}
+.ai_possibility-content ul{
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}.ai_possibility-content p{
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 550;
+    font-size: 17px;
+    line-height: 38px;
+    margin-bottom: 1rem;
+}
+.ai_possibility-content li{
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 30px;
+    display: inline-block;
+    width: 50%;
+    margin: -5px;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 950px){
+    .ai_possibility{
+        flex-direction: column;
+    }
+    .ai_possibility-image{
+        margin: 1rem 0;
+    }
+    .ai_possibility-content{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 700px){
+    .ai_possibility-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .ai_possibility-content li{
+        color: var(--color-text);
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 30px;
+        display: inline-block;
+        width: 50%;
+        margin: -5px;
+        margin-bottom: 1rem;
+    }
+}
