@@ -2,11 +2,11 @@ export const menuItems = [
     {
         title: "A.i.Convergence(Thailand)",
         classname:"AIMAIN",
-        url:"/#/A.i/"
+        url:"/A.i/"
     },
     {
         title: "About Ai",
-        url: "/#/A.i/History"
+        url: "/A.i/History"
     },
     {
         title: "Ai-technology" ,

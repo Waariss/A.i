@@ -1,5 +1,5 @@
-// import {BrowserRouter, Routes, Route} from "react-router-dom";
-import {HashRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+// import {HashRouter, Routes, Route} from "react-router-dom";
 import React, { useEffect } from 'react';
 import Home from "./Home";
 import './App.css';
@@ -18,14 +18,14 @@ class App extends React.Component{
   }
 render(){
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes basename="/A.i">
         <Route exact path="/A.i/" element={<Home />} />
         <Route path="/A.i/History" element={<History />} />
         <Route path="/A.i/Contact" element={<Contacts />} />
         <Route path="/A.i/Stroy" element={<Our_stroy />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 }
