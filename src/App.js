@@ -21,7 +21,7 @@ render(){
     <HashRouter>
       <Routes basename="/#/A.i">
         <Route exact path="/A.i/" element={<Home />} />
-        <Route path="/A.i/History" element={<History />} />
+        <Route path="/#/A.i/History" element={<History />} />
         <Route path="/A.i/Contact" element={<Contacts />} />
         <Route path="/A.i/Stroy" element={<Our_stroy />} />
       </Routes>
