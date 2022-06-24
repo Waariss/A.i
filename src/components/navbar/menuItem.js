@@ -10,7 +10,7 @@ export const menuItems = [
     },
     {
         title: "Ai-technology" ,
-        url: "/A.i/Stroy",
+        url: "/A.i/Tech",
     },
     {
         title: "Our stroy",
@@ -18,7 +18,7 @@ export const menuItems = [
     },
     {
         title: "Newsrooms",
-        url: "/A.i/Stroy",
+        url: "/A.i/News",
     },
     {
         title: "Contact us",

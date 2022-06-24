@@ -2,7 +2,7 @@ import React from 'react'
 import './team.css'
 const Team = () => {
   return (
-    <div className='subtittle section__padding'>
+    <div className='subtittle section__padding' id="team">
         <h1 className='subtitle '>Our Team</h1>
         <div class="container ">
             <div class="card">

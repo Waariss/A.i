@@ -1,21 +1,18 @@
 import React from 'react'
 import {Footer} from './containers';
 import {Navbar} from './components';
+import {Ai_tech} from './Tech';
 import Sop from './Top/Scrolltotop'
-import {History_about,Team,Map,Time} from './About';
-const Test = () => {
+const Techno = () => {
     return (
         <div className='App'>
             <div className='bg'>
                 <Sop/>
                 <Navbar />
-                <History_about />
+                <Ai_tech />
             </div>
-            <Time/>
-            <Team/>
-            <Map />
             <Footer />
         </div>
     )
 }
-export default Test;
+export default Techno;

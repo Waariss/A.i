@@ -2,20 +2,17 @@ import React from 'react'
 import {Footer} from './containers';
 import {Navbar} from './components';
 import Sop from './Top/Scrolltotop'
-import {History_about,Team,Map,Time} from './About';
-const Test = () => {
+import {News} from './News';
+const New = () => {
     return (
         <div className='App'>
             <div className='bg'>
                 <Sop/>
                 <Navbar />
-                <History_about />
+                <News />
             </div>
-            <Time/>
-            <Team/>
-            <Map />
             <Footer />
         </div>
     )
 }
-export default Test;
+export default New;

@@ -1,0 +1,1 @@
+export { default as Ai_tech} from './Tech.jsx';

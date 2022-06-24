@@ -26,10 +26,10 @@
 .timeline-content p{
     color: var(--color-text);
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
     text-align: center;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 25px;
 }
 .timeline-steps .timeline-step{
     align-items: center;

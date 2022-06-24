@@ -2,6 +2,13 @@
     display: flex;
     flex-direction: row;
 }
+.ai_header-image > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+}  
 .ai_header-content{
     flex: 1;
     display: flex;
@@ -19,11 +26,11 @@
 }
 .ai_header-content p{
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     line-height: 28px;
-    /* color: var(--color-text); */
-    color: #222831;
+    color: var(--color-text);
+    /* color: #222831; */
     margin-top: 1.5rem;
 }
 .ai_header-content_input{
@@ -89,8 +96,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 3.5px solid #F4620F;
+}
+.SimpleImageSlider .slide{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3.5px solid #F4620F;
 }
 .ai_header-image img{
+    /* width: 43.229vw; */
+    /* height: 44.9vh; */
     width: 100%;
     height: 100%;
 }

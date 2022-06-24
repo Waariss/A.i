@@ -6,6 +6,8 @@ import './App.css';
 import History from './About_ai.js';
 import Contacts from "./Contact";
 import Our_stroy from './Stroy_ai';
+import News from './New';
+import Ai_tech from './Techno';
 class App extends React.Component{
   componentDidMount(){
     document.title = "A.i.Convergence(Thailand)"
@@ -24,6 +26,8 @@ render(){
         <Route path="/A.i/History" element={<History />} />
         <Route path="/A.i/Contact" element={<Contacts />} />
         <Route path="/A.i/Stroy" element={<Our_stroy />} />
+        <Route path="/A.i/News" element={<News />} />
+        <Route path="/A.i/Tech" element={<Ai_tech />} />
       </Routes>
     </BrowserRouter>
   );

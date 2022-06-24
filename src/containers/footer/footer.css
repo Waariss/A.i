@@ -74,6 +74,14 @@
     color: #fff;
     margin-bottom: 0.9rem;
 }
+.ai_footer-links_div a{
+    font-size: 16px;
+    line-height: 18px;
+    font-family: var(--font-family);
+    color: #fff;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
 .ai_footer-links_div p{
     font-size: 16px;
     line-height: 18px;
