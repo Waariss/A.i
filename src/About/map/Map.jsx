@@ -13,14 +13,15 @@ function Map() {
         <GoogleMap zoom={17} center={center} mapContainerClassName = "map-container" >
           <Marker position={center} title='Kenyatta International Convention Centre'/>
         </GoogleMap>
-      <div className="ai_map-content">
-        <h1 className="gradient__text" id="location">Map and Directions</h1>
-        <h4>A.i.Convergence(Thailand).Co.,LTD</h4>
-        <p href="https://goo.gl/maps/VsXTHCeTZppWpiBh7">Address: 132 Nawamin 74 Alley, Lane 3-8-13, Ram Inthra, Khan Na Yao, Bangkok 10230</p>
-        <div className='open'>
-          <a href="https://goo.gl/maps/VsXTHCeTZppWpiBh7" target="_blank">Open in maps</a>
+        <div className="ai_map-content">
+          <h1 className="gradient__text" id="location">Map and Directions</h1>
+          {/* <h1 className="gradient__text" id="location">Location</h1> */}
+          <h4>A.i.Convergence(Thailand).Co.,LTD</h4>
+          <p href="https://goo.gl/maps/VsXTHCeTZppWpiBh7">Address: 132 Nawamin 74 Alley, Lane 3-8-13, Ram Inthra, Khan Na Yao, Bangkok 10230</p>
+          <div className='open'>
+            <a href="https://goo.gl/maps/VsXTHCeTZppWpiBh7" target="_blank">Open in maps</a>
+          </div>
         </div>
-      </div>
       </div>
   )
 }

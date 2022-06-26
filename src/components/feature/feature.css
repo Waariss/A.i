@@ -42,6 +42,11 @@
 .ai_features-container_feature-title:hover *{
     color: #F49867;
 }
+@media screen and (max-width: 1050px){
+    .ai_features-container_feature-title h1{
+        max-width: fit-content;
+    }
+}
 @media screen and (max-width: 550px){
     .ai_features-container_feature-title h1{
         font-size: 14px;

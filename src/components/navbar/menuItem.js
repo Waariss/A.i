@@ -1,19 +1,18 @@
 export const menuItems = [
     {
         title: "A.i.Convergence(Thailand)",
-        classname:"AIMAIN",
         url:"/A.i/"
     },
     {
-        title: "About Ai",
+        title: "About A.i.",
         url: "/A.i/History"
     },
     {
-        title: "Ai-technology" ,
+        title: "A.i.Technology" ,
         url: "/A.i/Tech",
     },
     {
-        title: "Our stroy",
+        title: "Our Stroy",
         url: "/A.i/Stroy",
     },
     {

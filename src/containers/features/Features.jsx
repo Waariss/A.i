@@ -21,7 +21,7 @@ const featuresData = [
 const Features = () => (
   <div className="ai_features section__padding" id="features">
     <div className="ai_features-heading">
-      <h1 className="gradient__text">Ai-technology </h1>
+      <h1 className="gradient__text">A.i.Technology</h1>
       <h2>The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h2>
     </div>
     <div className="ai_features-container">

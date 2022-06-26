@@ -11,16 +11,17 @@
     padding-bottom: 25px;
 }
 .roww h2{
-    font-weight: 800px;
+    font-weight: 850px;
     font-size: 50px;
     line-height: 45px;
     color: #F49867;
+    padding-bottom: 0.6rem;
 }
 .timeline-content h1{
     color: var(--color-text);
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 26px;
+    font-size: 30px;
     text-align: center;
 }
 .timeline-content p{
@@ -56,6 +57,34 @@
         position: absolute;
         right: 7.5rem;
         top: .3125rem
+    }
+}
+@media screen and (max-width: 650px){
+    .roww h2{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .timeline-content h1{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .timeline-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 490px){
+    .roww h2{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .timeline-content h1{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .timeline-content p{
+        font-size: 14px;
+        line-height: 24px;
     }
 }
 .timeline-steps .timeline-content{

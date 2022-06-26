@@ -15,7 +15,7 @@
     margin-right: 2rem;
 }
 .ai_navbar-links_logo img{
-    width: 62px;
+    width: 70px;
     height: 55px;
     border-radius: 12px;
 }
@@ -37,7 +37,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 25px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     margin: 0 0.5rem;
     cursor: pointer;
 }

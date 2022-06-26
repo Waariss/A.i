@@ -19,7 +19,7 @@ function Contact(){
   };
   const center = useMemo(() => ({ lat: 13.813867454539539,lng: 100.65877457675955}), []);
   return (
-    <div className='titlee section__padding'>
+    <div className='titlee section__padding' id="contact">
       <h1 className="gradient__text">How Can We Help You?</h1>
       <div className='contact_container section__padding'>
         <div className='des_container'>
@@ -42,7 +42,7 @@ function Contact(){
           <label>Phone Number</label>
           <input type="Phone" placeholder="Your phone number*" name="phone" required/>
           <label>Comments</label>
-          <textarea name="message" placeholder="Comments*"/>
+          <textarea name="message" placeholder="Comments"/>
           <a>We respect your privacy and will never send you unwanted spam.</a>
           <input type="submit" value="Send" />
         </form>

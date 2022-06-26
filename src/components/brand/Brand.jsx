@@ -1,23 +1,23 @@
 import React from 'react';
-import { google} from './imports';
+import {img1,img2,img3,img4,img5,google} from './imports';
 import './brand.css';
 
 const Brand = () => (
   <div className="ai_brand">
-    <div>
-      <img src={google} />
+    <div className='img1'>
+      <img src={img1} />
     </div>
-    <div>
-      <img src={google} />
+    <div className='img2'>
+      <img src={img2} />
     </div>
-    <div>
-      <img src={google} />
+    <div className='img3'>
+      <img src={img3} />
     </div>
-    <div>
-      <img src={google} />
+    <div className='img4'>
+      <img src={img4} />
     </div>
-    <div>
-      <img src={google} />
+    <div className='img5'>
+      <img src={img5} />
     </div>
   </div>
 );

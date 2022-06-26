@@ -3,7 +3,8 @@ import emailjs from '@emailjs/browser';
 import './header.css';
 import ai from '../../assests/AI-Convergence.bmp';
 import ai2 from '../../assests/blog01.png';
-import SimpleImageSlider from "react-simple-image-slider";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 const Header = () => {
   const ImageSliderStyle = { width: '100%', height: '100%'}
   const images = [
@@ -29,11 +30,30 @@ const Header = () => {
         <button type="button" value="send" onClick={sendEmail}>Get Started</button>
       </form>
       <div className="ai_header-content_people">
-        <p>Subscribe to get early access to our news and updates on products, the latest technology and events.</p>
+        {/* <p>Subscribe to get early access to our news and updates on products, the latest technology and events.</p> */}
       </div>
     </div>
     <div className="ai_header-image">
-        <SimpleImageSlider
+      <Carousel 
+        autoPlay 
+        showThumbs={false}
+        showStatus={false}
+        width="auto"
+        height="auto">
+        <div className='imgg'>
+          <img src={images[0].url} alt="image_data" />
+        </div>
+        <div className='imgg'>
+          <img src={images[1].url} alt="image_data" />
+        </div>
+        {/* <div>
+          <img src={images[2].url} alt="image_data" />
+        </div>
+        <div>
+          <img src={images[3].url} alt="image_data" />
+        </div> */}
+      </Carousel >
+        {/* <SimpleImageSlider
           // style={{
           //   display: "block",
           //   width: '20%',
@@ -52,7 +72,7 @@ const Header = () => {
           autoPlayDelay={2}
           useGPURender={true}
           showBullets={false}
-        />
+        /> */}
     </div>
   </div>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 import {Footer} from './containers';
 import {Navbar} from './components';
 import Sop from './Top/Scrolltotop'
-import {History_about,Team,Map,Time} from './About';
+import {History_about,Team,Map,Time,Info,Policy} from './About';
 const Test = () => {
     return (
         <div className='App'>
@@ -14,6 +14,8 @@ const Test = () => {
             <Time/>
             <Team/>
             <Map />
+            <Info/>
+            {/* <Policy/> */}
             <Footer />
         </div>
     )

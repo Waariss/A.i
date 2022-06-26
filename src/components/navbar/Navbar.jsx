@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useNavigate } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../assests/AI-Convergence.bmp';
@@ -6,11 +7,12 @@ import { menuItems } from './menuItem';
 import MenuItems from "./MenuItems.js";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const navigate = useNavigate();
   return (
     <div className='ai_navbar'>
       <div className='ai_navbar-links'>
         <div className='ai_navbar-links_logo'>
-          <img src={logo} alt="logo" href='#home'/>
+          <img src={logo} alt="logo" onClick={() => navigate("/A.i/")}/>
         </div>
         <div className='ai_navbar-links_container'>
         {/* <span className='Ai'>A.i.Convergence(Thailand)</span> */}

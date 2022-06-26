@@ -8,8 +8,28 @@
     flex: 1;
     max-width: 150px;
     min-width: 120px;
-    margin: 1rem;
+    margin: 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.img1 img{
+    width: 95px;
+    height: 75px;
+}
+.img2 img{
+    width: 105px;
+    height: 75px;
+}
+.img3 img{
+    width: 80px;
+    height: 75px;
+}
+.img4 img{
+    width: 75px;
+    height: 75px;
+}
+.img5 img{
+    width: 95px;
+    height: 75px;
 }

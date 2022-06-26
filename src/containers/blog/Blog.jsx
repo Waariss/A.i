@@ -16,7 +16,7 @@ const Blog = () => {
         <Article imgUrl={blog02} date="Sep 26, 2021" text="A.i.Convergence(Thailand)" />
         <Article imgUrl={blog03} date="Sep 26, 2021" text="A.i.Convergence(Thailand)" />
         <Article imgUrl={blog04} date="Sep 26, 2021" text="A.i.Convergence(Thailand)" />
-        <Article imgUrl={blog05} date="Sep 26, 2021" text="A.i.Convergence(Thailand)" />
+        <Article imgUrl={blog05} date="Sep 26, 2021" text="A.i.Convergence(Thailand)" /> 
       </div>
     </div>
   </div>

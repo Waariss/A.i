@@ -16,6 +16,7 @@
     height: 45vh;
     border-radius: 30px;
     border: 3px solid #F4620F;
+    /* margin-top: 0.8rem; */
 }
 .contact_content{
     flex: 1;
@@ -54,7 +55,9 @@ form textarea{
     line-height: 50px;
     /* color: #AE67FA; */
     color: #F49867;
+    /* color: #AE67FA; */
     padding-top: 0.8rem;
+    /* margin-top: -0.7rem; */
 }
 label{
     color: var(--color-text);
@@ -69,6 +72,17 @@ label{
     font-size: 20px;
     line-height: 40px;
 }
+.des_container p:hover *{
+    /* color: #F49867; */
+    color: #AE67FA;
+}
+.des_container a:hover *{
+    /* color: #F49867; */
+    color: #AE67FA;
+}
+form a{
+        font-weight: 650;
+}
 input[type=submit]{
     background-color: #F4620F;
     font-family: var(--font-family);
@@ -79,4 +93,74 @@ input[type=submit]{
     cursor: pointer;
     color: white;
     border-radius: 5px;
+}
+@media screen and (max-width: 950px){
+    .contact_container{
+        flex-direction: column;
+    }
+    .contact_container{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 700px){
+    .des_container a{
+        color: var(--color-text);
+        font-family: var(--font-family);
+        font-weight: 550;
+        font-size: 15px;
+        line-height: 30px;
+        display: inline-block;
+        max-width: 500px;
+        text-align: justify;
+        text-justify: none;
+        margin: -3px;
+        margin-bottom: 1.7rem;
+    }
+    .des_container p{
+        margin: -5px;
+        margin-bottom: -2.2rem;
+    }
+    .des_container h2{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 15.5px;
+        line-height: 35px;
+        margin: 0.4rem 0;
+        margin-left: -0.5rem;
+    }
+    .contact_content form input, .contact_content textarea{    
+        display: block;
+        width: 100%; 
+        border:15;
+        border-radius: 5px;
+        font-size: 15px;
+        border: 3px solid #F4620F;
+    }
+    .contact_content{
+        flex: 1;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-top: 6rem;
+        margin-left: -5.5rem;
+        align-items: center;
+    }
+    label{
+        color: var(--color-text);
+        font-family: var(--font-family);
+        font-weight: 650;
+        font-size: 15px;
+    }
+    form a{
+        font-weight: 450;
+        font-size: 15px;
+    }
+    .map2-container{
+        width: 100%;
+        height: 40vh;
+        z-index:2;
+        border-radius: 30px;
+        border: 3px solid #F4620F;
+        /* margin-top: 0.8rem; */
+    }
 }
