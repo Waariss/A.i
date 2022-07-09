@@ -94,6 +94,50 @@ input[type=submit]{
     color: white;
     border-radius: 5px;
 }
+@media screen and (max-width:1600px){
+    .titlee h1{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 50px;
+        /* margin-bottom: 1.5rem ; */
+        text-align: center;
+        line-height: 75px;
+    }
+    .des_container h2{
+        font-family: var(--font-family);
+        font-weight: 650;
+        font-size: 28px;
+        line-height: 50px;
+        /* color: #AE67FA; */
+        color: #F49867;
+        /* color: #AE67FA; */
+        padding-top: 0.8rem;
+        /* margin-top: -0.7rem; */
+    }
+    .des_container p,.des_container a{
+        color: var(--color-text);
+        font-family: var(--font-family);
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .contact_content form input, .contact_content textarea{    
+        display: block;
+        width: 100%;
+        padding: .5rem .8rem .5rem .8rem;
+        margin: .7vw 0 ;
+        border:15;
+        border-radius: 5px;
+        font-size: 16px;
+        border: 3px solid #F4620F;
+    }
+    label{
+        color: var(--color-text);
+        font-family: var(--font-family);
+        font-weight: 650;
+        font-size: 16px;
+    }
+}
 @media screen and (max-width: 950px){
     .contact_container{
         flex-direction: column;

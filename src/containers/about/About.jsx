@@ -14,7 +14,7 @@ const About = () => {
     <div className="ai_about-container">
       <Feature url="/A.i/History#about" title="Our History" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
       <Feature url="/A.i/History#team" title="Our Team" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-      <Feature url="/A.i/History#team" title="Location" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
+      {/* <Feature url="/A.i/History#team" title="Location" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." /> */}
       <Feature url="/A.i/History#info" title="Vision" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
       <Feature url="/A.i/History#info" title="Workplace Policies" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
     </div>

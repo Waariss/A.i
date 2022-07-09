@@ -1,5 +1,5 @@
 .map-container{
-    width: 45%;
+    width: 43vw;
     height: 40vh;
     border-radius: 30px;
     border: 3px solid #F4620F;
@@ -15,6 +15,14 @@
     align-items: center;
     flex-direction: column;
     margin-top: 4rem;
+}
+.ai_map-content{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 4rem;
+    align-items: center;
 }
 .ai_map-content h1{
     font-family: var(--font-family);
@@ -47,8 +55,41 @@
     font-size: 20px;
     line-height: 55px;
 }
-@media screen and (max-width: 1400px) and (max-width: 950px){
+@media screen and (max-width: 1600px){
+    .ai_map-content h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .ai_map-content h4{
+        font-family: var(--font-family);
+        font-weight: 650;
+        font-size: 28px;
+        line-height: 50px;
+        /* color: #AE67FA; */
+        color: #F49867;
+    }
+    .ai_map-content p{
+        color: var(--color-text);
+        font-family: var(--font-family);
+        font-weight: 450;
+        font-size: 18px;
+        line-height: 40px;
+        max-width: 492px;
+        text-align: center;
+    }
+    .open a{
+        color: #F49867;
+        font-family: var(--font-family);
+        font-weight: 550;
+        font-size: 16px;
+        line-height: 55px;
+    }
+}
+@media screen and (max-width: 1400px) and (max-width: 1050px){
     .ai_map{
+        flex: 0;
+        display: flex;
+        align-items: flex-end;
         flex-direction: column;
     }
     .map-container{

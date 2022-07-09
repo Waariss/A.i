@@ -9,6 +9,7 @@ const featuresData = [
   },
   {
     title: 'Application(Mobile)',
+    className:"mobile",
     text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
     url:"/A.i/Stroy",
   },

@@ -46,6 +46,7 @@
 .ai_blog-container_article-content p:last-child{
     cursor: pointer;
 }
+
 @media screen and (max-width: 550px) {
     .ai_blog-container_article-content h3{
         font-size: 18px;

@@ -34,6 +34,7 @@
     }
     .ai_blog-container_groupA{
         margin: 2rem 0;
+        margin-top: 30rem;
     }
     .ai_blog-container_groupA .gpt3__blog-container_article {
        width: 48%;
@@ -56,8 +57,12 @@
 }
 @media screen and (max-width: 550px){
     .ai_blog-heading h1 {
-        font-size: 34px;
+        font-size: 35px;
         line-height: 42px;
+    }
+    .ai_blog-container_groupA{
+        margin: 2rem 0;
+        margin-top: 2rem;
     }
 
 }
