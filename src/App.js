@@ -8,6 +8,7 @@ import Contacts from "./Contact";
 import Our_stroy from './Stroy_ai';
 import News from './New';
 import Ai_tech from './Techno';
+import Job from './job';
 class App extends React.Component{
   componentDidMount(){
     document.title = "A.i.Convergence(Thailand)"
@@ -28,6 +29,7 @@ render(){
         <Route path="/A.i/Stroy" element={<Our_stroy />} />
         <Route path="/A.i/News" element={<News />} />
         <Route path="/A.i/Tech" element={<Ai_tech />} />
+        <Route path="/A.i/Job" element={<Job />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,102 @@
+.ai_ct{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar)
+}
+.ai_ct-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #fff;
+}
+.ai_ct-content p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.ai_ct-content h3{
+    font-family: var(--font-family);
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 800;
+}
+.ai_ct-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.ai_ct-btn button{
+    background: #000;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+@media screen and (max-width: 1600px){
+    .ai_ct{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 1.5rem;
+        margin: 3rem;
+        border-radius: 1rem;
+        background: var(--gradient-bar)
+    }
+    .ai_ct-content p{
+        font-size: 12.8px;
+    }
+    .ai_ct-content h3{
+        font-size: 22.4px;
+    }
+    .ai_ct-btn button{
+        background: #000;
+        color: #fff;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 14.5px;
+        line-height: 30px;
+        padding: 0.5rem 1rem;
+        border-radius: 2rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        min-width: 150px;
+    }
+}
+@media screen and (max-width: 650px){
+    .ai_ct{
+        flex-direction: column;
+    }
+    .ai_ct-btn{
+        margin: 2rem 0 0;
+    }
+}
+@media screen and (max-width: 550px){
+    .ai_ct{
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+    .ai_ct-content h3{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .ai_ct-btn button{
+        font-size: 14px;
+        line-height: 28px;
+    }
+}

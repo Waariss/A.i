@@ -41,3 +41,42 @@
       transform: translateY(0px);
     }
 }
+@media screen and (max-width:1600px){
+  .icon-style{
+    background-color: #F4620F;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+  }
+}
+@media screen and (max-width:1050px) {
+  .icon-style{
+    background-color: #F4620F;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+  }
+}
+@media screen and (max-width: 550px){
+  .icon-style{
+    background-color: #F4620F;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+  }
+}
